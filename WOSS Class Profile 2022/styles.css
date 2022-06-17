@@ -37,7 +37,7 @@ body {
 }
 
 #section1-text, #section2-text {
-    width:70%;
+    width: 70%;
     color: black;
     line-height: 2;
 }
@@ -45,10 +45,16 @@ body {
 /* Section 2 starts here */
 #section2-result {
     display: flex;
+    padding-right: 5%;
 }
 
 #section2-text {
-    width: 50%; 
+    flex-grow: 1;
     margin-right: 10%;
+}
+
+#section-img {
+    max-width: 100%; 
+    height: auto;
 }
 
