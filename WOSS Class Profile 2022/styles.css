@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#intro {
+    background: rgb(0,2,65);
+    background: linear-gradient(90deg, rgba(0,2,65,1) 0%, rgba(19,33,128,1) 35%, rgba(40,126,207,1) 100%);
+    padding: 5%;
+    
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#intro-text {
+    color: #f7cb4d; 
+    display: table-cell;
+
+    width: 100%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+/* Section 1 starts here */
+#section1, #section2 {
+    color: #132180;
+    padding-left: 5%;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#section1-title {
+    width:100%;
+}
+
+#section1-text, #section2-text {
+    width:70%;
+    color: black;
+    line-height: 2;
+}
+
+/* Section 2 starts here */
+#section2-result {
+    display: flex;
+}
+
+#section2-text {
+    width: 50%; 
+    margin-right: 10%;
+}
+
