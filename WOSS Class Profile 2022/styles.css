@@ -4,7 +4,8 @@ body {
 }
 
 #intro {
-    background-color: #f7cb4d;
+    background: rgb(255,224,140);
+    background: linear-gradient(60deg, rgb(243, 218, 151), rgb(149, 110, 2) , rgb(244, 217, 141));
     margin: 1%;
     padding: 3%;
     max-width: 100%;
@@ -28,7 +29,7 @@ body {
 
 #sectionTitle {
     background: rgb(255,224,140);
-    background: radial-gradient(circle, rgba(255,224,140,1) 0%, rgba(242,193,36,1) 48%, rgba(240,188,19,1) 75%, rgba(213,158,12,1) 100%);
+    background: radial-gradient(circle, rgba(255,224,140,1) 0%, rgb(241, 192, 29) 48%, rgb(238, 185, 11) 75%, rgb(154, 113, 2) 100%);
 
     margin: 3%;
     padding: 2%;
@@ -60,6 +61,22 @@ body {
 
 #answer {
     display: flex;
+}
+
+#longAnswer {
+    display: flex;
+}
+
+.column1 {
+    width: 50%;
+    justify-content: left;
+    padding: 3%;
+}
+
+.column2 {
+    width: 50%;
+    justify-content: right;
+    padding: 3%;
 }
 
 
