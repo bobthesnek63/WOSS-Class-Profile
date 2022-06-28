@@ -67,21 +67,26 @@ body {
     display: flex;
 }
 
-.column1 {
+#wossQuestions.column1 {
     width: 50%;
-    text-align: left;
     padding: 2%;
 }
 
-.column2 {
+#wossQuestions.column2 {
     width: 50%;
-    text-align: right;
     padding: 2%;
 }
 
-#buttonGroup {
-    display: flex;
-    justify-self: center;
+#seriousQuestions.column1 {
+    width: 33%;
+}
+
+#seriousQuestions.column2 {
+    width: 33%;
+}
+
+#seriousQuestions.column3 {
+    width: 33%;
 }
 
 .button {
