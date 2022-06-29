@@ -44,14 +44,6 @@ body {
     padding: 1%;
 }
 
-#question {
-    color:rgb(245, 220, 152) ;
-    text-shadow: 2px 2px #968004;
-    text-decoration: underline;
-    margin-left: 2%;
-    padding: 0.5%;
-}
-
 #answer-text {
     color:rgb(255,224,140) ;
     width: 40%;
@@ -114,73 +106,3 @@ body {
     border: 20px solid rgb(244, 217, 141);
 }
 
-/* Section 1 starts here */
-#section1, #section2 {
-    color: #132180;
-    padding-left: 5%;
-    text-align: left;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#section1-title {
-    width: 100%;
-}
-
-#section1-text, #section2-text {
-    width: 75%;
-    color: black;
-    line-height: 2;
-    font-size: 1vw;
-}
-
-/* Section 2 starts here */
-#section2-result, #section3-result  {
-    display: flex;
-    padding-right: 5%;
-}
-
-#section2-text, #section3-text {
-    width: 50%;
-    flex-grow: 1;
-    margin-right: 10%;
-}
-
-#section-img {
-    max-width: 40%; 
-    height: auto;
-    object-fit:contain;
-}
-
-#section3 {
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 5%;
-
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-    text-align: left;
-    background: linear-gradient(90deg, rgba(0,2,65,1) 0%, rgba(19,33,128,1) 35%, rgba(40,126,207,1) 100%);
-    color: #f7cb4d;
-}
-
-#section3-title {
-    text-align: center;
-    font-size: 4vw;
-    margin-bottom: 3%;
-}
-
-#section3-intro {
-    text-align: center;
-    color: whitesmoke;
-    width: 70%;
-    margin: auto;
-    font-size: 1.5vw;
-}
-
-#section3-text {
-    color: white;
-    font-size: 1vw;
-    line-height: 2;
-}
