@@ -78,21 +78,26 @@ body {
 }
 
 #wossQuestions {
-    background: #9798e0;
+    background: #bfc0fa;
+    background: linear-gradient(#bfc0fa, #7f81e1);
 }
 
 #seriousQuestions {
-    background: #7577da;
+    background: #7f81e1;
+    background: linear-gradient(#7f81e1, #494ab6);
 }
 
 #uniQuestions {
-    background: #4c4ecc;
+    background: #494ab6;
+    background: linear-gradient(#494ab6, #3133ab);
 }
 
 #cultureQuestions {
-    background: #2b2da4;
+    background: #3133ab;
+    background: linear-gradient(#3133ab, #494ab6);
 }
 
 #personalQuestions {
-    background: #181a92;
+    background: #494ab6;
+    background: linear-gradient(#494ab6, #7f81e1);
 }
