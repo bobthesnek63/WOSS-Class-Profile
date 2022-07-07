@@ -1,117 +1,25 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    background-color: #060768;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #intro {
-    background: rgb(255,224,140);
-    background: linear-gradient(60deg, rgb(243, 218, 151), rgb(149, 110, 2) , rgb(244, 217, 141));
-    margin: 1%;
-    padding: 3%;
+    background: linear-gradient(90deg, rgba(0,2,65,1) 0%, rgba(19,33,128,1) 35%, rgba(40,126,207,1) 100%);
+    padding: 5%;
+    
     max-width: 100%;
+
     display: flex;
     justify-content: center;
+
 }
 
 #intro-text {
-    color: #060768;
-    text-shadow: 3px 3px #9697d9;
-    padding: 3%;
-}
+    color: #f7cb4d; 
+    display: table-cell;
 
-#intro-paragraph{
-    color:#f7cb4d;
-    font-style: italic;
-
-    margin: 4%;
-    padding: 2%;
-}
-
-#sectionTitle {
-    background: rgb(255,224,140);
-    background: radial-gradient(circle, rgba(255,224,140,1) 0%, rgb(241, 192, 29) 48%, rgb(238, 185, 11) 75%, rgb(154, 113, 2) 100%);
-
-    margin: 3%;
-    padding: 2%;
-    color: #060768;
+    width: 100%;
     text-align: center;
-}
-
-#sectionSubtitle {
-    color:rgb(255,224,140) ;
-    font-style:italic;
-    margin-left:3%;
-    padding: 1%;
-}
-
-#question {
-    color:rgb(245, 220, 152) ;
-    text-shadow: 2px 2px #968004;
-    text-decoration: underline;
-    margin-left: 2%;
-    padding: 0.5%;
-}
-
-#answer-text {
-    color:rgb(255,224,140) ;
-    width: 40%;
-    margin-right: 10%;
-    margin-left: 5%;
-}
-
-#answer {
-    display: flex;
-}
-
-#longAnswer {
-    display: flex;
-}
-
-#wossQuestions.column1 {
-    width: 50%;
-    padding: 2%;
-}
-
-#wossQuestions.column2 {
-    width: 50%;
-    padding: 2%;
-}
-
-#seriousQuestions.column1 {
-    width: 33%;
-}
-
-#seriousQuestions.column2 {
-    width: 33%;
-}
-
-#seriousQuestions.column3 {
-    width: 33%;
-}
-
-.button {
-    color:rgb(244, 217, 141);
-    font-size:110%;
-    text-align: center;
-
-    background-color: #060768;
-    background: linear-gradient(45deg, #6c6eda, #0e11bf);
-    border: 2px solid rgb(244, 217, 141);
-    border-radius: 10px;
-
-    padding: 3%;
-    margin: 2%;
-
-    transition: 0.4s;
-}
-
-.button:hover {
-    font-size: 120%;
-}
-
-.button:active {
-    font-size: 120%;
-    border: 20px solid rgb(244, 217, 141);
+    margin-right: 5%;
 }
 
 /* Section 1 starts here */
